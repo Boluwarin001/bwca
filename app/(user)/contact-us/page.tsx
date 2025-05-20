@@ -16,7 +16,7 @@ export default function ContactPage() {
       <div className="max-w-5xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         {/* Get in Touch Intro */}
         <div className="text-center mb-12">
-          <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
+          <h2 className="text-2xl font-bold mb-4">Get in Touch with us</h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
             Our team is ready to answer your questions about BWCA Forex Training Academy courses, enrollment, and more.
             Choose your preferred method of contact below.
