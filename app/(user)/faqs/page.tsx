@@ -68,7 +68,7 @@ export default function FaqsPage() {
                       <path d="m6 9 6 6 6-6"></path>
                     </svg>
                   </button>
-                </h3>support@bwc.academy
+                </h3>
                 <div
                   data-state="closed" id="radix-«r3»" role="region" aria-labelledby="radix-«r2»" data-orientation="vertical"
                   className="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
