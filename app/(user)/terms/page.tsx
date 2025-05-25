@@ -59,7 +59,7 @@ export default function TermsAndConditions() {
               <li>
                 Elite members benefit from weekly 1-on-1 sessions, exclusive content, and free access to all events
               </li>
-              <li>We’ll notify you 30 days in advance of any pricing changes</li>
+              <li>We&apos;ll notify you 30 days in advance of any pricing changes</li>
               <li>Refunds are handled with care and are subject to our refund policy</li>
             </ul>
           </section>
@@ -172,12 +172,12 @@ export default function TermsAndConditions() {
               10. Updates to Terms
             </h2>
             <p>
-              We may update these terms occasionally to reflect improvements. If any major changes happen, we’ll let you know through email or the platform. By continuing to use our services, you accept the updated terms.
+              We may update these terms occasionally to reflect improvements. If any major changes happen, we&apos;ll let you know through email or the platform. By continuing to use our services, you accept the updated terms.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100 mb-4">12. Contact Information</h2>
+            <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100 mb-4">11. Contact Information</h2>
             <p>We&apos;re always happy to help or hear from you. Reach out anytime:</p>
             <div className="mt-4 p-4 bg-slate-50 dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700">
               <p className="font-medium text-slate-900 dark:text-slate-100">BWC Academy</p>
