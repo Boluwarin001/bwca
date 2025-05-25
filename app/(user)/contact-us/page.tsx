@@ -17,7 +17,7 @@ export default function ContactPage() {
         {/* Get in Touch Intro */}
         <div className="text-center mb-12">
           <h2 className="text-2xl font-bold mb-4">Get in Touch with us</h2>
-          <p className="text-gray-600 max-w-3xl mx-auto">
+          <p className=" max-w-3xl mx-auto">
             Our team is ready to answer your questions about BWCA Forex Training Academy courses, enrollment, and more.
             Choose your preferred method of contact below.
           </p>
@@ -45,12 +45,12 @@ export default function ContactPage() {
                 </svg>
                 <div>
                   <h3 className="font-semibold text-xl">Phone</h3>
-                  <p className="text-gray-600 mt-2">Our support team is available during business hours.</p>
+                  <p className=" mt-2">Our support team is available during business hours.</p>
                   <div className="mt-4 space-y-2">
-                    <p className="text-gray-800 font-medium">Main Office:</p>
-                    <p className="text-gray-700">+1 (234) 567-8900</p>
-                    <p className="text-gray-800 font-medium mt-2">Student Support:</p>
-                    <p className="text-gray-700">+1 (234) 567-8901</p>
+                    <p className="font-medium">Main Office:</p>
+                    <p className="">+1 (234) 567-8900</p>
+                    <p className="font-medium mt-2">Student Support:</p>
+                    <p className="">+1 (234) 567-8901</p>
                   </div>
                 </div>
               </div>
@@ -78,14 +78,14 @@ export default function ContactPage() {
                 </svg>
                 <div>
                   <h3 className="font-semibold text-xl">Email</h3>
-                  <p className="text-gray-600 mt-2">Send us an email and we&#39;ll respond within 24 hours.</p>
+                  <p className=" mt-2">Send us an email and we&#39;ll respond within 24 hours.</p>
                   <div className="mt-4 space-y-2">
-                    <p className="text-gray-800 font-medium">General Inquiries:</p>
-                    <p className="text-gray-700">info@bwcaforex.com</p>
-                    <p className="text-gray-800 font-medium mt-2">Support:</p>
-                    <p className="text-gray-700">support@bwc.academy</p>
-                    <p className="text-gray-800 font-medium mt-2">Partnerships:</p>
-                    <p className="text-gray-700">partners@bwc.academy</p>
+                    <p className="font-medium">General Inquiries:</p>
+                    <p className="">info@bwcaforex.com</p>
+                    <p className="font-medium mt-2">Support:</p>
+                    <p className="">support@bwc.academy</p>
+                    <p className="font-medium mt-2">Partnerships:</p>
+                    <p className="">partners@bwc.academy</p>
                   </div>
                 </div>
               </div>
@@ -119,9 +119,9 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-xl">New York (Headquarters)</h3>
                     <div className="mt-4 space-y-1">
-                      <p className="text-gray-700">123 Trading Street, Suite 400</p>
-                      <p className="text-gray-700">New York, NY 10001</p>
-                      <p className="text-gray-700">United States</p>
+                      <p className="">123 Trading Street, Suite 400</p>
+                      <p className="">New York, NY 10001</p>
+                      <p className="">United States</p>
                     </div>
                     <div className="mt-4">
                       <a
@@ -175,9 +175,9 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-xl">London</h3>
                     <div className="mt-4 space-y-1">
-                      <p className="text-gray-700">456 Forex Avenue</p>
-                      <p className="text-gray-700">London, EC2A 4NE</p>
-                      <p className="text-gray-700">United Kingdom</p>
+                      <p className="">456 Forex Avenue</p>
+                      <p className="">London, EC2A 4NE</p>
+                      <p className="">United Kingdom</p>
                     </div>
                     <div className="mt-4">
                       <a
@@ -232,19 +232,19 @@ export default function ContactPage() {
               </svg>
               <div>
                 <h3 className="font-semibold text-xl">Office Hours</h3>
-                <p className="text-gray-600 mt-2">Our offices are open during the following hours:</p>
+                <p className="mt-2">Our offices are open during the following hours:</p>
                 <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <p className="text-gray-800 font-medium">New York Office:</p>
-                    <ul className="mt-2 space-y-1 text-gray-700">
+                    <p className="font-medium">New York Office:</p>
+                    <ul className="mt-2 space-y-1 ">
                       <li>Monday - Friday: 9:00 AM - 6:00 PM EST</li>
                       <li>Saturday: 10:00 AM - 2:00 PM EST</li>
                       <li>Sunday: Closed</li>
                     </ul>
                   </div>
                   <div>
-                    <p className="text-gray-800 font-medium">London Office:</p>
-                    <ul className="mt-2 space-y-1 text-gray-700">
+                    <p className="font-medium">London Office:</p>
+                    <ul className="mt-2 space-y-1">
                       <li>Monday - Friday: 9:00 AM - 6:00 PM GMT</li>
                       <li>Saturday: 10:00 AM - 2:00 PM GMT</li>
                       <li>Sunday: Closed</li>
@@ -259,7 +259,7 @@ export default function ContactPage() {
         {/* Connect With Us */}
         <div className="text-center mb-12">
           <h2 className="text-2xl font-bold mb-6">Connect With Us</h2>
-          <p className="text-gray-600 max-w-3xl mx-auto mb-8">
+          <p className="max-w-3xl mx-auto mb-8">
             Follow us on social media for the latest updates, trading tips, and educational content.
           </p>
           <div className="flex justify-center space-x-6">
@@ -361,7 +361,7 @@ export default function ContactPage() {
         {/* FAQ Link */}
         <div className="rounded-lg p-8 text-center">
           <h2 className="text-2xl font-bold mb-4">Have Questions?</h2>
-          <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+          <p className=" mb-6 max-w-2xl mx-auto">
             Before contacting us, you might find answers to your questions in our frequently asked questions section.
           </p>
           <Link

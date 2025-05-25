@@ -45,7 +45,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 border-b border-gray-800 pb-2">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" onClick={(e) => e.preventDefault()} className="hover:text-green-500 transition-colors text-sm">
+                <Link href="about"  className="hover:text-green-500 transition-colors text-sm">
                   About Us
                 </Link>
               </li>
@@ -77,13 +77,13 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 border-b border-gray-800 pb-2">Legal</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" onClick={(e) => e.preventDefault()} className="hover:text-green-500 transition-colors text-sm">
+                <Link href="privacy-policy"  className="hover:text-green-500 transition-colors text-sm">
                   Privacy Policy
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#" onClick={(e) => e.preventDefault()}
+                  href="terms" 
                   className="hover:text-green-500 transition-colors text-sm"
                 >
                   Terms & Conditions
