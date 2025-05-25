@@ -90,7 +90,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#" onClick={(e) => e.preventDefault()} className="hover:text-green-500 transition-colors text-sm">
+                <Link href="refund-policy"  className="hover:text-green-500 transition-colors text-sm">
                   Refund Policy
                 </Link>
               </li>
