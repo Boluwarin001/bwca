@@ -50,7 +50,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/search?term=a" className="hover:text-green-500 transition-colors text-sm">
+                <Link href="/courses" className="hover:text-green-500 transition-colors text-sm">
                   Courses
                 </Link>
               </li>
@@ -95,7 +95,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#" onClick={(e) => e.preventDefault()} className="hover:text-green-500 transition-colors text-sm">
+                <Link href="/disclaimer"  className="hover:text-green-500 transition-colors text-sm">
                   Disclaimer
                 </Link>
               </li>

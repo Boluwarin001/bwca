@@ -1,16 +1,39 @@
 import { currentUser } from "@clerk/nextjs/server";
-import { redirect } from "next/navigation";
 import { getEnrolledCourses } from "@/sanity/lib/student/getEnrolledCourses";
 import Link from "next/link";
 import { GraduationCap } from "lucide-react";
+import {SignInButton} from '@clerk/nextjs'
 import { getCourseProgress } from "@/sanity/lib/lessons/getCourseProgress";
 import { CourseCard } from "@/components/CourseCard";
+import { Button } from "@/components/ui/button";
 
 export default async function MyCoursesPage() {
-  const user = await currentUser();
+const user = await currentUser();
+console.log(user)
+  if (!user) {
+return (
+      <div className="h-full pt-16">
+      <div className="container mx-auto px-4 py-8">
+        <div className="flex items-center gap-4 mb-8">
+          <GraduationCap className="h-8 w-8 text-primary" />
+          <h1 className="text-3xl font-bold">My Courses</h1>
+        </div>
 
-  if (!user?.id) {
-    return redirect("/");
+
+ <div className="text-center py-12">
+            <h2 className="text-2xl font-semibold mb-4">No courses yet</h2>
+            <p className="text-muted-foreground mb-8">
+               You need to be signed in to view your enrolled courses. Please sign in to access your personalized learning dashboard
+            </p>
+             <SignInButton mode="modal"
+            >
+           <Button variant="outline" size="sm">Sign In</Button>
+            </SignInButton>
+          </div>
+
+        </div>
+        </div>
+    )
   }
 
   const enrolledCourses = await getEnrolledCourses(user.id);
@@ -43,7 +66,7 @@ export default async function MyCoursesPage() {
               to get started!
             </p>
             <Link
-              href="/"
+              href="/courses"
               prefetch={false}
               className="inline-flex items-center justify-center rounded-lg px-6 py-3 font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
             >

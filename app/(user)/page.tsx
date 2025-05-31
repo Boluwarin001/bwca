@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import { CourseCard } from "@/components/CourseCard";
 import { getCourses } from "@/sanity/lib/courses/getCourses";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export const dynamic = "force-static";
 export const revalidate = 3600; // revalidate at most every hour
@@ -37,6 +38,15 @@ export default async function Home() {
             />
           ))}
         </div>
+
+
+        <Link href="/courses" className="max-w-[200px] font-bold mt-2 text-center w-full px-4 py-2 rounded-xl shadow-md 
+               bg-gray-200 text-gray-900 
+               dark:bg-gray-800 dark:text-gray-100 
+               hover:bg-gray-300 dark:hover:bg-gray-700 
+               transition duration-200 block mx-auto">
+View More
+</Link>
       </div>
 
 
